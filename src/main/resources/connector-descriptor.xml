@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenericConnectorDescriptor>
+    <field id="url" label="URL" type="string">
+        <helptext> Enter the url which are connected to the connector</helptext>
+
+    </field>
+
+    <field id="username" label="USERNAME" type="string"/>
+    <field id="password" label="PASSWORD" type="password"/>
+
+    <operation types="SEND"/>
+    <operation types="DELETE"/>
+
+
+
+</GenericConnectorDescriptor>
